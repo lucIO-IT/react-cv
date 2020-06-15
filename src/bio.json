@@ -1,0 +1,19 @@
+{
+  "reply": {
+    "title": "Full-Stack Developer - Data Reply",
+    "time": "July 2019 - Present",
+    "activities": [
+      "ETL Programming - Spark, Hive & Hadoop", "Back-End development - Python & Django", "Front-End development - JQuery & Bootstrap"
+    ]
+  },
+  "freelancer": {
+    "title": "Full-Stack Developer - Freelancer",
+    "time": "May 2018 - July 2019",
+    "activities": ["Back-End development - Python & Django", "Front-End development - JQuery & Bootstrap"]
+  },
+  "teacher": {
+    "title": "Educator - Various",
+    "time": "September 2011 - May 2018",
+    "activities": ["Entrepreneurship Education", "Programming Education targeted primarily at children"]
+  }
+}

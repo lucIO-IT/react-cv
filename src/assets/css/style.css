@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+html, body, #app, .app-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245,245,245);
+}
+.app-container {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 300px minmax(0,1fr);
+}
+.app-sidebar {
+    background-color: white;
+    border-right: 1px solid rgb(200,200,200);
+}
+.app-portrait, .app-round-portrait {
+    width: 120px;
+    margin: auto;
+}
+.app-round-portrait {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: auto;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+.orange {
+    background-color: orange;
+    color: white;
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.padd {
+    display: block;
+    padding: 15px;
+}
+.padd-min {
+    display: block;
+    padding: 0 10px;
+}
+.banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+}
+.rel {
+    position: relative;
+}
+.app-icon {
+    font-size: 24px;
+    color: black;
+}
+@keyframes opacityGrow {
+    from {opacity: -5;}
+    to {opacity: 1;}
+}
+.transition {
+    animation-name: opacityGrow;
+    animation-duration: 1s;
+    transition: opacity 1s;
+}
